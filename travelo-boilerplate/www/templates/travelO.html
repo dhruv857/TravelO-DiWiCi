@@ -1,0 +1,35 @@
+<ion-view title="TravelO" id="page2" style="background-color:#FDFDFD;">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <div class="button-bar">
+            <button id="travelO-button2" class="button button-calm  button-block">One Way</button>
+            <button id="travelO-button1" class="button button-calm  button-block">Round</button>
+            <button id="travelO-button3" class="button button-positive  button-block">Multi</button>
+        </div>
+        <form class="list">
+            <label class="item item-input" name="origin">
+                <span class="input-label">From</span>
+                <input type="text" placeholder="New York, NY">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">To</span>
+                <input type="text" placeholder="Los Angeles, LA">
+            </label>
+            <label class="item item-input" name="ddate">
+                <span class="input-label">Departure</span>
+                <input type="date" placeholder="Apr 5">
+            </label>
+            <label class="item item-input" name="ddate">
+                <span class="input-label">Return</span>
+                <input type="date" placeholder="Apr 14">
+            </label>
+            <button id="travelO-button4" class="button button-positive  button-block">Add City</button>
+            <label class="item item-input">
+                <span class="input-label">Budget : $200</span>
+                <input type="text" placeholder="">
+            </label>
+            <a ui-sref="tabsController.searchResult" id="travelO-button8" class="button button-positive  button-block icon ion-ios-search">Search</a>
+        </form>
+        <form class="list"></form>
+        <form class="list"></form>
+    </ion-content>
+</ion-view>

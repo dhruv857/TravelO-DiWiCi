@@ -1,0 +1,21 @@
+<ion-view title="Trip Options" id="page3">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <label class="item item-input" name="passenger">
+                <span class="input-label">Passengers</span>
+                <input type="number" placeholder="1">
+            </label>
+        </form>
+        <div class="list card">
+            <div class="item item-divider">Modes of Transport</div>
+            <div class="item item-body">
+                <form class="list">
+                    <ion-checkbox>Bus</ion-checkbox>
+                    <ion-checkbox>Train</ion-checkbox>
+                    <ion-checkbox>Flights</ion-checkbox>
+                </form>
+            </div>
+        </div>
+        <a ui-sref="tabsController.searchResult" id="tripOptions-button9" class="button button-positive  button-block">Proceed</a>
+    </ion-content>
+</ion-view>
